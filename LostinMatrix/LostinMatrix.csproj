@@ -29,6 +29,7 @@
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <UapDefaultAssetScale>100</UapDefaultAssetScale>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -113,6 +114,7 @@
     <None Include="LostinMatrix_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\Square310x310Logo.png" />
     <Content Include="Assets\Square44x44Logo.png" />
